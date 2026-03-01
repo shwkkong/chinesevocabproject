@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# SwiftPM
+.build/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# App data
+/data/raw/
+/data/derived/
+
+# SQLite db artifacts
+*.sqlite
+*.sqlite3
+*.db
+
+# Env files
+.env
+
+# Logs
+*.log
